@@ -7,16 +7,28 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="score-container">
-        Score: <span class="score-value" id="score">0</span>
+    <div class="main-container">
+      <h3>Choose An Operation</h3>
+      <div class="option-container">
+        <select id="option">
+          <option value="Addition">Addition</option>
+          <option value="Subtract">Subtract</option>
+          <option value="Multiply">Multiply</option>
+          <option value="divide">divide</option>
+        </select>
       </div>
-      <div class="feature-container">
-        <h2 class="question" id="ques">question</h2>
-        <input type="text" id="input" placeholder="Enter Your Answer" />
-        <button id="submit-btn">Submit</button>
+      <div class="container">
+        <div class="score-container">
+          Score: <span class="score-value" id="score">0</span>
+        </div>
+        <div class="feature-container">
+          <h2 class="question" id="ques"><p id="para"></p></h2>
+          <input type="text" id="input" placeholder="Enter Your Answer" />
+          <button id="submit-btn">Submit</button>
+        </div>
       </div>
     </div>
-    <script src="js/index.js"></script>
+    <!-- <script src="js/index.js"></script> -->
+    <script src="js/script.js"></script>
   </body>
 </html>
